@@ -1,0 +1,45 @@
+# Ignore compiled binary files
+*.exe
+*.o
+*.out
+
+# Ignore binary files (images, videos, etc.)
+*.bin
+*.dat
+
+# Ignore the vendor directory
+/vendor/
+
+# Ignore any logs
+*.log
+
+# Ignore any generated files or directories
+bin/
+obj/
+app.env
+# Ignore any IDE or editor-specific files
+.vscode/
+.idea/
+
+# Ignore database-related files (if applicable)
+*.db
+
+# Ignore configuration files that contain sensitive data (if applicable)
+config.yaml
+secrets.yaml
+
+# Ignore any generated documentation
+/doc/
+
+# Ignore any cache or temporary files
+/cache/
+/tmp/
+
+# Ignore any generated test files or directories
+/test/
+
+# Ignore any backup files
+*~
+
+# Ignore any files generated during development
+*.iml
